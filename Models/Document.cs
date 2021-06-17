@@ -7,7 +7,7 @@ namespace ViewBagExperimente.Models
 {
     public class Document
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
+        public int ID { get; set; } = 42;
+        public string Name { get; set; } = "Sepp";
     }
 }
