@@ -21,8 +21,8 @@ namespace ViewBagExperimente.Controllers
         public IActionResult Index()
         {
             //ViewBag.Name = "send this shit!!!";
-            var test = ViewBag.Name;
-            return View(test);
+            ViewBag.Name = "display that shit in the fuckin index!!!!";
+            return View();
         }
 
         public IActionResult Privacy()
